@@ -42,6 +42,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Left_Paranthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
+        };
+
+        Right_Paranthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 8>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
