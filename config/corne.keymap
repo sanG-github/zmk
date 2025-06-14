@@ -176,10 +176,10 @@
 
         NEAR_LEFT_LAYER {
             bindings = <
-&trans  &trans    &trans    &trans  &trans     &trans    &mkp LCLK      &mmv MOVE_X(-500)  &mmv MOVE_Y(-500)  &mmv MOVE_Y(500)  &mmv MOVE_X(500)  &mkp RCLK
-&trans  &trans    &trans    &trans  &trans     &trans    &kp PAGE_UP    &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_UP      &mmv MOVE_RIGHT   &trans
-&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &kp PAGE_DOWN  &msc MOVE_X(20)    &msc MOVE_Y(-20)   &msc MOVE_Y(20)   &msc MOVE_X(20)   &trans
-                            &trans  &trans     &trans    &trans         &trans             &trans
+&trans  &trans    &trans    &trans  &trans     &trans    &mkp LCLK      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp RCLK
+&trans  &trans    &trans    &trans  &trans     &trans    &kp PAGE_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &kp PAGE_DOWN  &trans          &trans          &trans        &trans           &trans
+                            &trans  &trans     &trans    &trans         &trans          &trans
             >;
         };
 
