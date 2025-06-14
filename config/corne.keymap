@@ -45,14 +45,69 @@
     combos {
         compatible = "zmk,combos";
 
-        Left_Paranthesis {
+        Left_Parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <7 8>;
         };
 
-        Right_Paranthesis {
+        Right_Parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <9 8>;
+        };
+
+        Left_Brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <2 3>;
+        };
+
+        Right_Brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <3 4>;
+        };
+
+        Left_Bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <26 27>;
+        };
+
+        Right_Bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <27 28>;
+        };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <16 28>;
+        };
+
+        Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <15 14>;
+        };
+
+        Equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 15>;
+        };
+
+        Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <16 4>;
+        };
+
+        Single_Quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <14 15 16>;
+        };
+
+        Double_Quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <26 27 28>;
+        };
+
+        Caps_Word {
+            bindings = <&caps_word>;
+            key-positions = <3 4 2>;
         };
     };
 
