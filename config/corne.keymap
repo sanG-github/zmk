@@ -185,10 +185,10 @@
 
         FAR_LEFT_LAYER {
             bindings = <
-&trans  &trans              &kp K_UNDO  &kp LG(A)   &kp K_REDO   &trans           &trans  &trans          &trans    &trans        &trans     &trans
-&trans  &kp LC(LEFT_ARROW)  &kp K_CUT   &kp K_COPY  &kp K_PASTE  &kp LG(RIGHT)    &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &trans              &trans      &trans      &trans       &trans           &trans  &trans          &trans    &trans        &trans     &trans
-                                        &trans      &trans       &trans           &trans  &trans          &trans
+&trans  &trans              &kp C_AC_UNDO  &kp LG(A)      &kp C_AC_REDO   &trans           &trans  &trans          &trans    &trans        &trans     &trans
+&trans  &kp LC(LEFT_ARROW)  &kp C_AC_CUT   &kp C_AC_COPY  &kp C_AC_PASTE  &kp LG(RIGHT)    &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
+&trans  &trans              &trans         &trans         &trans          &trans           &trans  &trans          &trans    &trans        &trans     &trans
+                                           &trans         &trans          &trans           &trans  &trans          &trans
             >;
         };
 
