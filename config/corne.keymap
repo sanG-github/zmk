@@ -97,17 +97,52 @@
 
         Single_Quote {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <14 15 16>;
+            key-positions = <2 3 4>;
         };
 
         Double_Quotes {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <26 27 28>;
+            key-positions = <16 15 14>;
         };
 
         Caps_Word {
             bindings = <&caps_word>;
-            key-positions = <3 4 2>;
+            key-positions = <26 27 28>;
+        };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <19 7>;
+        };
+
+        Back_Slash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <31 19>;
+        };
+
+        Less_Than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <19 20>;
+        };
+
+        Greater_Than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <20 21>;
+        };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <7 8 9>;
+        };
+
+        Semi_Colon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 20 21>;
+        };
+
+        Grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <31 32 33>;
         };
     };
 
