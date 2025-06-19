@@ -82,12 +82,12 @@
 
         Underscore {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <15 14>;
+            key-positions = <14 26>;
         };
 
         Equal {
             bindings = <&kp EQUAL>;
-            key-positions = <16 15>;
+            key-positions = <15 3>;
         };
 
         Plus {
@@ -122,12 +122,12 @@
 
         Less_Than {
             bindings = <&kp LESS_THAN>;
-            key-positions = <19 20>;
+            key-positions = <20 32>;
         };
 
         Greater_Than {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <20 21>;
+            key-positions = <20 8>;
         };
 
         Colon {
