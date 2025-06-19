@@ -42,6 +42,24 @@
         };
     };
 
+    macros {
+        grave_macro: grave_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT>
+                     , <&macro_tap &kp KP_N0 &kp KP_N0 &kp KP_N6 &kp KP_N0>
+                     , <&macro_release &kp LALT>;
+        };
+        
+        tilde_macro: tilde_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT>
+                     , <&macro_tap &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N6>
+                     , <&macro_release &kp LALT>;
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -141,12 +159,12 @@
         };
 
         Grave {
-            bindings = <&kp GRAVE>;
+            bindings = <&grave_macro>;
             key-positions = <31 32 33>;
         };
 
         Tilde {
-            bindings = <&kp TILDE>;
+            bindings = <&tilde_macro>;
             key-positions = <9 21>;
         };
 
