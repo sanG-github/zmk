@@ -194,10 +194,10 @@
 
         FAR_LEFT_LAYER {
             bindings = <
-&trans  &kp LG(LS(LEFT_ARROW))  &kp LG(Z)  &kp LG(A)  &kp LG(LS(Z))  &kp LG(LS(RIGHT))    &trans  &trans          &trans    &trans        &trans     &trans
-&trans  &kp LG(LEFT_ARROW)      &kp LG(X)  &kp LG(C)  &kp LG(V)      &kp LG(RIGHT)        &trans  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans
-&trans  &kp LA(LEFT_ARROW)      &trans     &trans     &trans         &kp LA(RIGHT)        &trans  &trans          &trans    &trans        &trans     &trans
-                                           &trans     &trans         &trans               &trans  &trans          &trans
+&trans  &kp LG(Z)           &kp LG(X)         &kp LG(C)  &kp LG(V)          &kp LG(LS(Z))    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(LEFT_ARROW)  &kp LG(LS(LEFT))  &kp LG(A)  &kp LG(LS(RIGHT))  &kp LG(RIGHT)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LA(LEFT_ARROW)  &kp LA(LS(LEFT))  &trans     &kp LA(LS(RIGHT))  &kp LA(RIGHT)    &trans  &trans  &trans  &trans  &trans  &trans
+                                              &trans     &trans             &trans           &trans  &trans  &trans
             >;
         };
 
