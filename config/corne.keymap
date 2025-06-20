@@ -232,7 +232,7 @@
             bindings = <
 &kp LA(SPACE)  &kp LG(LA(LS(NUMBER_1)))      &kp LG(LA(LS(NUMBER_2)))      &kp LG(LA(LS(NUMBER_3)))      &kp LC(LA(LG(NUMBER_4)))      &kp LA(LG(LS(N5)))        &kp LG(LS(LA(NUMBER_6)))      &kp LA(LG(LS(NUMBER_7)))  &kp LG(LA(LS(NUMBER_8)))  &kp LG(LA(LS(NUMBER_9)))  &kp LG(LS(LA(NUMBER_0)))  &kp LS(LA(LG(SPACE)))
 &trans         &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LG(LC(LA(LS(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))    &kp LA(LS(LC(LG(NUMBER_6))))  &kp LS(LA(LC(LG(N7))))    &kp LG(LA(LC(LS(N8))))    &kp LA(LS(LC(LG(N9))))    &kp LS(LC(LA(LG(N0))))    &trans
-&trans         &kp LA(LG(NUMBER_1))          &trans                        &trans                        &trans                        &trans                    &trans                        &kp LG(LA(N7))            &kp LG(LA(N8))            &kp LG(LA(NUMBER_9))      &kp LG(LA(NUMBER_0))      &trans
+&trans         &kp LA(LG(NUMBER_1))          &trans                        &trans                        &trans                        &trans                    &trans                        &kp LA(NUMBER_7)          &kp LA(NUMBER_8)          &kp LA(NUMBER_9)          &kp LA(NUMBER_0)          &trans
                                                                            &trans                        &trans                        &trans                    &trans                        &trans                    &trans
             >;
         };
